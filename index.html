@@ -47,10 +47,12 @@
             
             <!-- رواية عربية 1 -->
            <!-- رواية عربية 1 -->
-<div class="novel-card ar bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 border border-slate-100 flex flex-col">
-    <div class="bg-emerald-100 h-48 flex items-center justify-center border-b overflow-hidden">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGphQkewN2NQp0L7apXMAN6DyDfqOLMKvdSVID04sDQ&s=10" alt="الثلاثية (بين القصرين)" class="w-full h-full object-cover">
+            <div class="novel-card ar bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 border border-slate-100 flex flex-col max-w-sm">
+    <!-- حاوية غلاف الرواية: تم تعديل الارتفاع إلى h-72 واستخدام object-contain لتظهر أبعاد الغلاف الطولية كاملة دون قص -->
+    <div class="bg-rose-950 h-72 flex items-center justify-center border-b overflow-hidden">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUVyMY3ozJy0pUNIYgbNQaQNKVg8QVI3FZSH1H89ORQ&s=10" alt="رواية بين القصرين" class="h-full w-auto object-contain">
     </div>
+    
     <div class="p-6 flex-grow flex flex-col justify-between">
         <div>
             <div class="flex justify-between items-start mb-2">
@@ -58,16 +60,26 @@
                 <span class="text-sm text-gray-500">نجيب محفوظ</span>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">الثلاثية (بين القصرين)</h3>
-            <p class="text-gray-650 text-sm leading-relaxed mb-4">
+            <p class="text-gray-650 text-sm leading-relaxed mb-6">
                 ملحمة أدبية خالدة ترصد تحولات المجتمع المصري والتغيرات السياسية والاجتماعية عبر تتبع حكايات عائلة السيد أحمد عبد الجواد.
             </p>
+            
+            <!-- زر فتح الرواية الموجه مباشرة لرابط الـ PDF الجديد الذي أرسلته -->
+            <a href="https://ik.imagekit.io/imgayoub/%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D9%82%D8%B5%D8%B1%D9%8A%D9%86.pdf" target="_blank" rel="noopener noreferrer" class="mb-2 w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2.5 px-4 rounded-lg transition duration-200 shadow-sm text-sm">
+                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+                فتح الرواية (PDF)
+            </a>
         </div>
-        <div class="border-t pt-4 mt-2 flex justify-between items-center text-xs text-gray-500">
+        
+        <div class="border-t pt-4 mt-4 flex justify-between items-center text-xs text-gray-500">
             <span>النوع: دراما تاريخية</span>
             <span>التقييم: 4.8 / 5 ★</span>
         </div>
     </div>
 </div>
+
             <!-- رواية ألمانية 1 -->
             <div class="novel-card de bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 border border-slate-100 flex flex-col">
                 <div class="bg-sky-100 h-48 flex items-center justify-center border-b">
